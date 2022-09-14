@@ -1,0 +1,79 @@
+
+body{
+        background:#E5E5E5;
+        position: relative;
+        margin-top: 50px;
+        margin-left: 50px;;
+
+}
+main{
+    border-radius: 2%;
+    position: relative;
+    margin-left: 50px;
+    width:954px;
+    height: 600px;
+    display: inline-block;
+    /* Light blue/light-blue-100 */
+    background: #F3F5FC;
+}
+.seccion-izquierda{
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 60px;
+    width: 50%;
+}
+.seccion-derecha{
+    display: inline-block;
+    margin: 0px 0 0 0px;
+    width: 40%;
+    
+    top: 0px;
+    
+  }
+
+.input-texto{
+    /*position: ;*/
+    border-radius: 2%;
+    border: none;
+    border: dashed 5px rgba(149, 169, 253,0.3);
+    
+}
+.input-texto::placeholder{
+    font-size: larger;
+    color:blueviolet;
+    text-align: center;
+    line-height: 400px;
+}
+.mensaje::placeholder{
+    font-size: larger;
+    color:blueviolet;
+    text-align: center;
+    line-height: 400px;
+}
+.mensaje{
+    border-radius: 2%;
+    background-image:url(img/muneco.png) ;
+    background-repeat: no-repeat;
+    background-position: 60px center;
+    background-size: 200px;
+    opacity: 0.9;
+    top: -5px;
+    border: dashed 5px rgba(149, 169, 253,0.3);
+}
+
+.botones{
+    margin-top: 1px;
+   height: 30px;
+    width: 39%;
+}
+
+.boton-copiar{
+    margin-left: 0px;
+    width: 80%;
+    height: 30px;
+    margin-top: 58px;
+}
+.footer{
+    width: auto;
+    text-align: center;
+}

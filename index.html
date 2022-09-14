@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="img/Logo.png" alt="a de color azul, inicial de Alura.">
+    </header>
+    <main>
+        <section class="seccion-izquierda">
+            <textarea class="input-texto" name="" id="" cols="50" rows="23" placeholder="Ingrese el texto aqui"></textarea>
+            <p>Solo letras minusculas y sin acentos.</p>
+            <div class="botones-in">
+                <button class="encriptar botones" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar botones" onclick="btnDesencriptar()">Desencripar</button>
+            </div>
+        </section>        
+        <section class="seccion-derecha">
+            <textarea class="mensaje" name="" id="" cols="40" rows="23" placeholder="Ningun mensaje fue encontrado."></textarea>
+            <button class="boton-copiar" onclick="btnCopiar()">copiar</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="copyright">Francisco Canales</p>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>
